@@ -31,6 +31,10 @@ Thumbs.db
 *.swo
 *~
 
+# Deployment configs (keep only one based on your deployment choice)
+# render.yaml
+# vercel.json
+
 # Temporary files
 *.tmp
 .cache/

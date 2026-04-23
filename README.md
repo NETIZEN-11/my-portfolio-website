@@ -2,6 +2,13 @@
 
 Minimal navy blue and white themed portfolio built with React.js and Node.js.
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/NETIZEN-11/my-portfolio-web)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy)
+
+## 🌐 Live Demo
+- **Website:** [Coming Soon - Deploy to see your live site!]
+- **API:** [Coming Soon - Your Render backend URL]
+
 ## 🎨 Design Features
 
 - **Minimal Design** - Clean navy blue (#001433) and white color scheme
@@ -96,48 +103,20 @@ Frontend runs on: **http://localhost:5173** or **http://localhost:5174**
 
 ## 📦 Deployment
 
-### Option 1: Vercel (Frontend) + Render (Backend)
+### 🚀 Quick Deploy (15 minutes)
+See **[QUICK_START.md](QUICK_START.md)** for fastest deployment
 
-#### Deploy Backend on Render
-1. Go to [render.com](https://render.com)
-2. Create new Web Service
-3. Connect GitHub repository
-4. Settings:
-   - **Build Command:** `npm install`
-   - **Start Command:** `npm start`
-   - **Root Directory:** `server`
-5. Add Environment Variables:
-   - `MONGO_URI` = Your MongoDB Atlas connection string
-   - `PORT` = 5001
-6. Deploy and copy the URL
+### 📖 Detailed Deployment Guide
+See **[DEPLOYMENT.md](DEPLOYMENT.md)** for step-by-step instructions
 
-#### Deploy Frontend on Vercel
-1. Go to [vercel.com](https://vercel.com)
-2. Import GitHub repository
-3. Settings:
-   - **Framework:** Vite
-   - **Root Directory:** `client`
-   - **Build Command:** `npm run build`
-   - **Output Directory:** `dist`
-4. Add Environment Variable:
-   - `VITE_API_URL` = Your Render backend URL
-5. Deploy
+### ✅ Pre-Deployment Checklist
+See **[DEPLOYMENT_CHECKLIST.md](DEPLOYMENT_CHECKLIST.md)** for complete checklist
 
-### Option 2: Railway (Full Stack)
-1. Go to [railway.app](https://railway.app)
-2. Create new project from GitHub
-3. Add two services:
-   - Backend (server folder)
-   - Frontend (client folder)
-4. Configure environment variables
-5. Deploy
-
-### MongoDB Atlas Setup
-1. Create free cluster at [mongodb.com/cloud/atlas](https://www.mongodb.com/cloud/atlas)
-2. Create database user
-3. Whitelist IP (0.0.0.0/0 for all)
-4. Get connection string
-5. Use in `MONGO_URI`
+### Deployment Stack
+- **Frontend:** Vercel (Free tier)
+- **Backend:** Render (Free tier)
+- **Database:** MongoDB Atlas (Free tier)
+- **Total Cost:** $0/month 🎉
 
 ## 🎯 Features
 

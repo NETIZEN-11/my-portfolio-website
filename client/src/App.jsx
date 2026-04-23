@@ -8,12 +8,11 @@ import Hero from './components/Sections/Hero'
 import About from './components/Sections/About'
 import Skills from './components/Sections/Skills'
 import Projects from './components/Sections/Projects'
-import Experience from './components/Sections/Experience'
 import NotFound from './components/Sections/NotFound'
 import LoadingScreen from './components/UI/LoadingScreen'
 
 function App() {
-  const [isLoading, setIsLoading] = useState(false) // Changed to false to skip loading
+  const [isLoading, setIsLoading] = useState(false)
 
   return (
     <BrowserRouter>
