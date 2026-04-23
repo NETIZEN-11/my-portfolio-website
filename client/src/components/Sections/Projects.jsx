@@ -49,7 +49,7 @@ const Projects = () => {
     : projects.filter(p => p.category === filter)
 
   return (
-    <section id="projects" className="py-20 px-4">
+    <section id="projects" className="py-20 px-4 bg-navy-800">
       <div className="max-w-6xl mx-auto">
         <motion.div
           ref={ref}
@@ -58,11 +58,11 @@ const Projects = () => {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <h2 className="text-5xl font-bold mb-4 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">
+          <h2 className="text-5xl font-bold mb-4 text-white">
             Projects
           </h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-indigo-500 to-purple-500 mx-auto rounded-full" />
-          <p className="text-gray-400 mt-4">Things I've built to learn and grow</p>
+          <div className="w-24 h-1 bg-navy-600 mx-auto rounded-full" />
+          <p className="text-gray-300 mt-4">Things I've built to learn and grow</p>
         </motion.div>
 
         <motion.div
@@ -75,10 +75,10 @@ const Projects = () => {
             <button
               key={cat}
               onClick={() => setFilter(cat)}
-              className={`px-5 py-2 rounded-full text-sm font-medium transition-all ${
+              className={`px-5 py-2 rounded-lg text-sm font-medium transition-all ${
                 filter === cat
-                  ? 'bg-gradient-to-r from-indigo-500 to-purple-500 text-white'
-                  : 'glass hover:bg-white/20'
+                  ? 'bg-navy-600 text-white'
+                  : 'bg-navy-900 text-gray-300 hover:bg-navy-700 border border-navy-700'
               }`}
             >
               {cat}
