@@ -12,7 +12,7 @@ const About = () => {
   ]
 
   return (
-    <section id="about" className="py-20 px-4">
+    <section id="about" className="py-20 px-4 bg-navy-800">
       <div className="max-w-6xl mx-auto">
         <motion.div
           ref={ref}
@@ -21,10 +21,10 @@ const About = () => {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <h2 className="text-5xl font-bold mb-4 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">
+          <h2 className="text-5xl font-bold mb-4 text-white">
             About Me
           </h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-indigo-500 to-purple-500 mx-auto rounded-full" />
+          <div className="w-24 h-1 bg-navy-600 mx-auto rounded-full" />
         </motion.div>
 
         <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -33,15 +33,15 @@ const About = () => {
             animate={isVisible ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-            <div className="glass rounded-2xl p-8 border border-white/10">
+            <div className="bg-navy-900 rounded-2xl p-8 border border-navy-700">
               <p className="text-gray-300 leading-relaxed mb-6 text-lg">
-                Hey there! I'm Nitesh, a first-year Computer Science student who started learning programming in early 2025. What began as curiosity has quickly turned into a genuine passion for building things with code.
+                Hi, I'm Nitish Kumar, a first-year student and a passionate Full Stack Developer. I started my journey in 2025 and have been consistently learning and building projects to improve my skills.
               </p>
               <p className="text-gray-300 leading-relaxed mb-6 text-lg">
-                Right now, I'm focused on web development — getting comfortable with both the frontend and backend sides. I've been working with React and Node.js, and I'm gradually understanding how everything connects together to make web apps work.
+                I work with frontend technologies like HTML, CSS, JavaScript, React, Tailwind CSS, and Bootstrap to create clean and responsive user interfaces. On the backend, I use Node.js, Express.js, and MongoDB to build scalable and functional applications.
               </p>
               <p className="text-gray-300 leading-relaxed text-lg">
-                I'm at the beginning of my journey, and I know there's a lot to learn. But that's exactly what excites me. Every new concept I pick up feels like opening a door to something interesting.
+                I enjoy solving problems, exploring new technologies, and turning ideas into real-world projects. Currently, I'm focused on strengthening my development skills and gaining hands-on experience through projects and collaborations.
               </p>
             </div>
           </motion.div>
@@ -53,13 +53,13 @@ const About = () => {
                 initial={{ opacity: 0, y: 30 }}
                 animate={isVisible ? { opacity: 1, y: 0 } : {}}
                 transition={{ duration: 0.6, delay: 0.3 + index * 0.1 }}
-                className="glass rounded-xl p-6 text-center hover:bg-white/10 transition-all border border-white/10"
+                className="bg-navy-900 rounded-xl p-6 text-center hover:bg-navy-700 transition-all border border-navy-700"
               >
-                <div className="w-14 h-14 mx-auto mb-4 rounded-full bg-gradient-to-br from-indigo-500 to-purple-500 flex items-center justify-center shadow-lg shadow-indigo-500/30">
-                  <item.icon className="w-7 h-7" />
+                <div className="w-14 h-14 mx-auto mb-4 rounded-full bg-navy-600 flex items-center justify-center">
+                  <item.icon className="w-7 h-7 text-white" />
                 </div>
-                <h3 className="font-bold text-lg mb-2">{item.title}</h3>
-                <p className="text-sm text-gray-400">{item.desc}</p>
+                <h3 className="font-bold text-lg mb-2 text-white">{item.title}</h3>
+                <p className="text-sm text-gray-300">{item.desc}</p>
               </motion.div>
             ))}
           </div>
