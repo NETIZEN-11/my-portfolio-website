@@ -15,24 +15,8 @@ html {
 body {
   font-family: 'Inter', sans-serif;
   overflow-x: hidden;
-}
-
-.glass {
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-}
-
-.dark .glass {
-  background: rgba(15, 23, 42, 0.7);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-.gradient-text {
-  background: linear-gradient(135deg, #6366f1, #8b5cf6, #ec4899);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  background: #ffffff;
+  color: #001f3f;
 }
 
 ::-webkit-scrollbar {
@@ -40,10 +24,14 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: #0f172a;
+  background: #f0f4f8;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #6366f1;
+  background: #0066cc;
   border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #004c99;
 }
