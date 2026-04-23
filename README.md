@@ -1,4 +1,4 @@
-# Portfolio Website - Nitish Kumar
+# Portfolio Website -Nitesh Singh
 
 Full Stack Developer Portfolio with React.js frontend and Node.js/Express backend.
 
