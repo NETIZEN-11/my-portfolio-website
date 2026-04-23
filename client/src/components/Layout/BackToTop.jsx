@@ -23,7 +23,7 @@ const BackToTop = () => {
           animate={{ opacity: 1, scale: 1 }}
           exit={{ opacity: 0, scale: 0 }}
           onClick={scrollToTop}
-          className="fixed bottom-8 right-8 p-4 rounded-full glass bg-indigo-500 hover:bg-indigo-600 transition-all z-30"
+          className="fixed bottom-8 right-8 p-4 rounded-full bg-navy-600 hover:bg-navy-500 transition-all z-30 text-white"
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
         >
