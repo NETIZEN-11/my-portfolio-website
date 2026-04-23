@@ -9,16 +9,15 @@ import About from './components/Sections/About'
 import Skills from './components/Sections/Skills'
 import Projects from './components/Sections/Projects'
 import Experience from './components/Sections/Experience'
-import Contact from './components/Sections/Contact'
 import NotFound from './components/Sections/NotFound'
 import LoadingScreen from './components/UI/LoadingScreen'
 
 function App() {
-  const [isLoading, setIsLoading] = useState(true)
+  const [isLoading, setIsLoading] = useState(false) // Changed to false to skip loading
 
   return (
     <BrowserRouter>
-      <div className="min-h-screen bg-[#0f172a] text-white transition-colors duration-300">
+      <div className="min-h-screen bg-navy-900 text-white transition-colors duration-300">
         <AnimatePresence mode="wait">
           {isLoading && (
             <LoadingScreen key="loading" onComplete={() => setIsLoading(false)} />
@@ -35,8 +34,6 @@ function App() {
                   <About />
                   <Skills />
                   <Projects />
-                  <Experience />
-                  <Contact />
                 </>} />
                 <Route path="*" element={<NotFound />} />
               </Routes>
