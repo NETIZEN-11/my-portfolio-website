@@ -48,6 +48,30 @@ const Projects = () => {
       live: '#',
       category: 'Full Stack'
     },
+    {
+      title: 'Stone Paper Scissors',
+      description: 'Interactive browser-based game with smooth animations and engaging gameplay. Built with pure JavaScript.',
+      tech: ['HTML', 'CSS', 'JavaScript'],
+      github: 'https://github.com/NETIZEN-11/STONE-PAPPER-SCISSORS-GAME',
+      live: '#',
+      category: 'Frontend'
+    },
+    {
+      title: 'Tic Tac Toe',
+      description: 'Classic Tic Tac Toe game with AI opponent and multiple difficulty levels. Features responsive design and smooth transitions.',
+      tech: ['HTML', 'CSS', 'JavaScript'],
+      github: 'https://github.com/NETIZEN-11/TIC-TAC-TOE-GAME',
+      live: '#',
+      category: 'Frontend'
+    },
+    {
+      title: 'Memory Match Game',
+      description: 'Memory card matching game with multiple levels, scoring system, and engaging animations. Built with vanilla JavaScript.',
+      tech: ['HTML', 'CSS', 'JavaScript'],
+      github: 'https://github.com/NETIZEN-11/OJT-MEMORY-MATCH-GAME-ENGINE-WITH-LEVEL',
+      live: '#',
+      category: 'Frontend'
+    },
   ]
 
   const categories = ['All', 'Frontend', 'Backend', 'Full Stack']
