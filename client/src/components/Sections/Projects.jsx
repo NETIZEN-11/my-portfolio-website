@@ -9,34 +9,42 @@ const Projects = () => {
 
   const projects = [
     {
-      title: 'E-Commerce Platform',
-      description: 'Full-stack e-commerce solution with React frontend, Node.js backend, and MongoDB. Features include user authentication, product management, and payment integration.',
+      title: 'Panchayat',
+      description: 'Full-stack application for managing village/panchayat data with CRUD operations, admin dashboard, and responsive UI for rural governance.',
       tech: ['React', 'Node.js', 'MongoDB', 'Express'],
-      github: 'https://github.com/NETIZEN-11',
+      github: 'https://github.com/NETIZEN-11/Panchayat',
       live: '#',
       category: 'Full Stack'
     },
     {
-      title: 'Task Management API',
-      description: 'RESTful API for task management with CRUD operations, authentication, and documentation. Built with Node.js and Express using best practices.',
-      tech: ['Node.js', 'Express', 'MongoDB', 'JWT'],
-      github: 'https://github.com/NETIZEN-11',
+      title: 'AI Home Maintenance App',
+      description: 'Smart home maintenance application with AI integration for predicting maintenance needs, scheduling repairs, and tracking home inventory.',
+      tech: ['React', 'Node.js', 'MongoDB', 'AI'],
+      github: 'https://github.com/NETIZEN-11/ai-home-maintenance-app',
       live: '#',
-      category: 'Backend'
+      category: 'Full Stack'
     },
     {
-      title: 'Portfolio Website',
-      description: 'Modern responsive portfolio with glassmorphism design and smooth animations. Built with React and Tailwind CSS.',
-      tech: ['React', 'Tailwind', 'Framer Motion'],
-      github: 'https://github.com/NETIZEN-11',
+      title: 'Food Orders',
+      description: 'Online food ordering platform with restaurant listings, cart management, order tracking, and seamless checkout experience.',
+      tech: ['React', 'Node.js', 'MongoDB', 'Express'],
+      github: 'https://github.com/NETIZEN-11/Food-Orders',
       live: '#',
-      category: 'Frontend'
+      category: 'Full Stack'
+    },
+    {
+      title: 'Short URL',
+      description: 'URL shortening service that converts long URLs into short, shareable links with click analytics and link management.',
+      tech: ['React', 'Node.js', 'MongoDB', 'Express'],
+      github: 'https://github.com/NETIZEN-11/SHORT-URL',
+      live: '#',
+      category: 'Full Stack'
     },
     {
       title: 'Student Management System',
-      description: 'Web application to manage student records, attendance, and grades. Built with React for frontend and Node.js backend.',
-      tech: ['React', 'Node.js', 'MongoDB'],
-      github: 'https://github.com/NETIZEN-11',
+      description: 'Comprehensive system for managing student records, attendance, grades, and communications between teachers and parents.',
+      tech: ['React', 'Node.js', 'MongoDB', 'Express'],
+      github: 'https://github.com/NETIZEN-11/Student-management-system',
       live: '#',
       category: 'Full Stack'
     },

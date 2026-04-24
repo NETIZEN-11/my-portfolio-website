@@ -1,9 +1,9 @@
 import { motion } from 'framer-motion'
-import { 
-  FaHtml5, FaCss3Alt, FaJs, FaReact, FaBootstrap, 
-  FaNodeJs, FaGitAlt, FaDocker, FaPython 
+import {
+  FaHtml5, FaCss3Alt, FaJs, FaReact, FaBootstrap,
+  FaNodeJs, FaGitAlt, FaDocker, FaPython, FaDatabase
 } from 'react-icons/fa'
-import { SiTailwindcss, SiMongodb, SiExpress } from 'react-icons/si'
+import { SiTailwindcss, SiMongodb, SiExpress, SiMysql } from 'react-icons/si'
 import { useScrollReveal } from '../../hooks/useScrollReveal'
 
 const Skills = () => {
@@ -19,6 +19,8 @@ const Skills = () => {
     { name: 'Node.js', icon: FaNodeJs },
     { name: 'Express.js', icon: SiExpress },
     { name: 'MongoDB', icon: SiMongodb },
+    { name: 'MySQL', icon: SiMysql },
+    { name: 'SQL', icon: FaDatabase },
     { name: 'Python', icon: FaPython },
     { name: 'Docker', icon: FaDocker },
     { name: 'Git', icon: FaGitAlt },
