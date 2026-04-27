@@ -34,13 +34,6 @@ const About = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
           >
             <div className="bg-navy-900 rounded-2xl p-8 border border-navy-700">
-              <div className="mb-6 overflow-hidden rounded-xl">
-                <img
-                  src="https://img.freepik.com/free-photo/closeup-shot-red-rose-with-dew-top-black_12449485.jpg"
-                  alt="Red Rose"
-                  className="w-full h-64 object-cover hover:scale-105 transition-transform duration-500"
-                />
-              </div>
               <p className="text-gray-300 leading-relaxed mb-6 text-lg">
                 Hi, I'm Nitish Kumar, a first-year student and a passionate Full Stack Developer. I started my journey in 2025 and have been consistently learning and building projects to improve my skills.
               </p>
