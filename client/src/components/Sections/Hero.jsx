@@ -110,10 +110,12 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.5 }}
             className="flex-1 flex justify-center"
           >
-            <div className="w-72 h-72 md:w-96 md:h-96 rounded-full border-4 border-navy-600 flex items-center justify-center bg-navy-800">
-              <span className="text-8xl md:text-[9rem] font-bold text-white">
-                NS
-              </span>
+            <div className="w-72 h-72 md:w-96 md:h-96 rounded-full overflow-hidden border-4 border-navy-600">
+              <img
+                src="https://drive.google.com/uc?export=download&id=1WkyCPUAuBzl6XS8FNtz7oiY4KwAZTi2u"
+                alt="Nitesh Singh"
+                className="w-full h-full object-cover"
+              />
             </div>
           </motion.div>
         </div>
