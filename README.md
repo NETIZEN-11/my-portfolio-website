@@ -109,7 +109,7 @@ See **[QUICK_START.md](QUICK_START.md)** for fastest deployment
 ### 📖 Detailed Deployment Guide
 See **[DEPLOYMENT.md](DEPLOYMENT.md)** for step-by-step instructions
 
-### ✅ Pre-Deployment Checklist
+###  Pre-Deployment Checklist
 See **[DEPLOYMENT_CHECKLIST.md](DEPLOYMENT_CHECKLIST.md)** for complete checklist
 
 ### Deployment Stack
@@ -120,17 +120,16 @@ See **[DEPLOYMENT_CHECKLIST.md](DEPLOYMENT_CHECKLIST.md)** for complete checklis
 
 ## 🎯 Features
 
-- ✅ Hero section with introduction
-- ✅ About section with background
-- ✅ Unified Tech Stack with icons
-- ✅ Projects showcase with filtering
-- ✅ Experience/Journey timeline
-- ✅ Responsive navbar
-- ✅ Footer with social links
-- ✅ Smooth scroll animations
-- ✅ Loading screen
-- ✅ 404 page
-- ✅ Back to top button
+-  Hero section with introduction
+-  About section with background
+-  Unified Tech Stack with icons
+-  Projects showcase with filtering
+-  Experience/Journey timeline
+-  Responsive navbar
+-  Footer with social links
+-  Smooth scroll animations
+-  Loading screen
+-  404 page Back to top button
 
 ## 🎨 Color Palette
 
