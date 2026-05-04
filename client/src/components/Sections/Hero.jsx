@@ -112,7 +112,7 @@ const Hero = () => {
           >
             <div className="w-72 h-72 md:w-96 md:h-96 rounded-full overflow-hidden border-4 border-navy-600">
               <img
-                src="https://i.ibb.co/0pLRWTYW/PHOTO.jpg"
+                src="https://i.ibb.co/mCrrktyP/PHOTO-2.jpg"
                 alt="Nitesh Singh"
                 className="w-full h-full object-cover"
               />
