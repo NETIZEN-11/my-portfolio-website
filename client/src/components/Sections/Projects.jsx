@@ -65,12 +65,12 @@ const Projects = () => {
       category: 'Frontend'
     },
     {
-      title: 'Memory Match Game',
-      description: 'Memory card matching game with multiple levels, scoring system, and engaging animations. Built with vanilla JavaScript.',
-      tech: ['HTML', 'CSS', 'JavaScript'],
-      github: 'https://github.com/NETIZEN-11/OJT-MEMORY-MATCH-GAME-ENGINE-WITH-LEVEL',
+      title: 'Vision',
+      description: 'Full-stack web application built with modern technologies. Features a complete frontend and backend integration with database support.',
+      tech: ['React', 'Node.js', 'MongoDB', 'Express'],
+      github: 'https://github.com/NETIZEN-11/vision',
       live: '#',
-      category: 'Frontend'
+      category: 'Full Stack'
     },
   ]
 
