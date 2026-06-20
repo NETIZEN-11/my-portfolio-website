@@ -65,10 +65,10 @@ const Projects = () => {
       category: 'Frontend'
     },
     {
-      title: 'Vision',
-      description: 'Full-stack web application built with modern technologies. Features a complete frontend and backend integration with database support.',
+      title: 'Digital Heros Task',
+      description: 'A full-stack web application built as part of the Digital Heros challenge. Features a modern UI, complete frontend and backend integration with database support.',
       tech: ['React', 'Node.js', 'MongoDB', 'Express'],
-      github: 'https://github.com/NETIZEN-11/vision',
+      github: 'https://github.com/NETIZEN-11/DIGITAL-HEROS-TASK',
       live: '#',
       category: 'Full Stack'
     },
